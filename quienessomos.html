@@ -6,9 +6,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,18 +17,18 @@
     <div class="container-fluid p-0 d-flex flex-column min-vh-100">
         <nav class="navbar navbar-expand-md navbar-light bg-menu">
             <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="" width="64"></a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="#">Anfibios</a>
@@ -39,10 +39,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modalregistro">Registrate</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalregistro">Registrate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modallogin">Inicia sesión</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Inicia sesión</a>
                     </li>
                 </ul>
             </div>
@@ -59,13 +59,13 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="section1HeaderId">
                             <h5 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId"
+                                <a data-bs-toggle="collapse" href="#section1ContentId"
                                     aria-expanded="true" aria-controls="section1ContentId">
                                     ¿Qué queremos hacer?
                                 </a>
                             </h5>
                         </div>
-                        <div id="section1ContentId" class="collapse in" role="tabpanel"
+                        <div id="section1ContentId" class="collapse" role="tabpanel"
                             aria-labelledby="section1HeaderId">
                             <div class="card-body">
                                 El proyecto nació con el objetivo de ayudar estudiantes y a todas aquellas personas
@@ -84,13 +84,13 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="section2HeaderId">
                             <h5 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId"
+                                <a data-bs-toggle="collapse" href="#section2ContentId"
                                     aria-expanded="true" aria-controls="section2ContentId">
                                     Nuestro propósito
                                 </a>
                             </h5>
                         </div>
-                        <div id="section2ContentId" class="collapse in" role="tabpanel"
+                        <div id="section2ContentId" class="collapse" role="tabpanel"
                             aria-labelledby="section2HeaderId">
                             <div class="card-body">
                                 En <strong>catalogoanimales.es</strong> trabajamos con tres objetivos claros:
@@ -109,13 +109,13 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="section3HeaderId">
                             <h5 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId"
+                                <a data-bs-toggle="collapse" href="#section3ContentId"
                                     aria-expanded="true" aria-controls="section3ContentId">
                                     ¿Qué hacemos en nuestra web?
                                 </a>
                             </h5>
                         </div>
-                        <div id="section3ContentId" class="collapse in" role="tabpanel"
+                        <div id="section3ContentId" class="collapse" role="tabpanel"
                             aria-labelledby="section3HeaderId">
                             <div class="card-body">
                                 <p>Para lograr los objetivos propuestos, compartimos contenido a diario elaborado
@@ -172,10 +172,10 @@
                     </div>
                     <div class="col-md-5 mb-3 text-center">
                         <h6><a href="quienessomos.html" class="text-white">Quienes somos</a></h6>
-                        <h6><a href="" class="text-white" data-toggle="modal"
-                                data-target="#modalprivacidad">Privacidad</a></h6>
-                        <h6><a href="" class="text-white" data-toggle="modal"
-                                data-target="#modalcontacto">Contacto</a>
+                        <h6><a href="" class="text-white" data-bs-toggle="modal"
+                            data-bs-target="#modalprivacidad">Privacidad</a></h6>
+                        <h6><a href="" class="text-white" data-bs-toggle="modal"
+                            data-bs-target="#modalcontacto">Contacto</a>
                         </h6>
                     </div>
                     <div class="col-md-1 mb-3"><a href="index.html" class="btn btn-success text-right">HOME</a>
@@ -396,21 +396,18 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 </body>
 
