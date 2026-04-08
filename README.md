@@ -6,10 +6,10 @@ Para conseguir que el footer siempre se sitúe en la parte inferior de la págin
 
 ### Clases utilizadas
 
-1. **`d-flex`** — Activa Flexbox en el contenedor principal (`container-fluid`), convirtiéndolo en un flex container.
+1. **`d-flex`** — Activa Flexbox en el contenedor principal.
 2. **`flex-column`** — Establece la dirección del eje principal en vertical (`flex-direction: column`), de modo que los hijos (navbar, contenido y footer) se apilan de arriba a abajo.
 3. **`min-vh-100`** — Fuerza que el contenedor ocupe como mínimo el 100% de la altura del viewport (`min-height: 100vh`). Esto garantiza que la página siempre llene toda la pantalla.
-4. **`flex-grow-1`** — Se aplica al bloque de contenido (la sección central). Hace que ese elemento crezca para ocupar todo el espacio vertical sobrante (`flex-grow: 1`), empujando así al footer hacia abajo.
+4. **`flex-grow-1`** — Se aplica al bloque central de contenido. Hace que ese elemento crezca para ocupar todo el espacio vertical sobrante (`flex-grow: 1`), empujando así al footer hacia abajo.
 
 ### Estructura
 
